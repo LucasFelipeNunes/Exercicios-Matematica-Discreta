@@ -10,4 +10,5 @@ setdiff(A,C)
 setdiff(B,C)
 "d) A - vazio"
 A
-"e) "
+"e) Complementar de B em relacao a A"
+setdiff(B,A)
