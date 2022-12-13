@@ -2,12 +2,12 @@
 A <- c(1,2)
 B <- c(1,2,3,4,5,6)
 C <- c(4,5,6)
-estaContido = function(matriz1, matriz2){
+estaContido = function(conjunto1, conjunto2){
     resposta = TRUE
-    for(i in 1:length(matriz1)){
+    for(i in 1:length(conjunto1)){
         aux <- FALSE
-        for(j in 1:length(matriz2)){
-            if(matriz1[i] == matriz2[j]) aux <- TRUE
+        for(j in 1:length(conjunto2)){
+            if(conjunto1[i] == conjunto2[j]) aux <- TRUE
         }
         if(!aux){
             resposta <- FALSE
