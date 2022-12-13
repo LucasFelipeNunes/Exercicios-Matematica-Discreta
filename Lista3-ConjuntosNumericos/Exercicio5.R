@@ -1,8 +1,7 @@
-"5) Considere os conjuntos:
-A = {divisores naturais de 30} B = {múltiplos de 6} C = {múltiplos de 3}
-Calcule:"
+"5) Considere os conjuntos A = {divisores naturais de 30}, B = {multiplos de 6} e C = {multiplos de 3}, calcule:"
 A = 1
 B = 6
+C = 3
 for(i in 2:30){
     if(30 %% i == 0) A = c(A, i)
     B = c(B, i * 6)
